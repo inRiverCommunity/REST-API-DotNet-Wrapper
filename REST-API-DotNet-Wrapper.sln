@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inRiverCommunity.Connectivity.iPMC", "inRiverCommunity.Connectivity.iPMC\inRiverCommunity.Connectivity.iPMC.csproj", "{C3F184A2-E072-45C4-B10A-E3D03447AB55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3D2A8923-0569-4416-9E86-B8341E940D72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{5A4550F4-6410-47D7-8FCB-732F7C16F7F7}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inRiverCommunity.Connectivity.iPMC.Tests", "inRiverCommunity.Connectivity.iPMC.Tests\inRiverCommunity.Connectivity.iPMC.Tests.csproj", "{F93351CE-07E8-410E-A456-3838001CC25C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{31FCAF37-8663-4662-B614-451B709A9F66}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inRiverCommunity.Extensions.TestExtensions.iPMC", "inRiverCommunity.Extensions.TestExtensions.iPMC\inRiverCommunity.Extensions.TestExtensions.iPMC.csproj", "{F9A51329-F5DE-470D-8499-1C6EFD620610}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3F184A2-E072-45C4-B10A-E3D03447AB55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F184A2-E072-45C4-B10A-E3D03447AB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F184A2-E072-45C4-B10A-E3D03447AB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F184A2-E072-45C4-B10A-E3D03447AB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93351CE-07E8-410E-A456-3838001CC25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93351CE-07E8-410E-A456-3838001CC25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93351CE-07E8-410E-A456-3838001CC25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93351CE-07E8-410E-A456-3838001CC25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A51329-F5DE-470D-8499-1C6EFD620610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A51329-F5DE-470D-8499-1C6EFD620610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A51329-F5DE-470D-8499-1C6EFD620610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A51329-F5DE-470D-8499-1C6EFD620610}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F93351CE-07E8-410E-A456-3838001CC25C} = {3D2A8923-0569-4416-9E86-B8341E940D72}
+		{F9A51329-F5DE-470D-8499-1C6EFD620610} = {3D2A8923-0569-4416-9E86-B8341E940D72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EF0985A-2B7E-4E06-843B-9885C4C61145}
+	EndGlobalSection
+EndGlobal

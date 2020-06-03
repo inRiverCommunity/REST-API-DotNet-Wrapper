@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Ctac.InRiver.TestExtensions.PMC.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Antlr" Version="3.5.0.2">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="inRiver.Remoting.iPMC" Version="7.4.20147.3">
+      <NoWarn>NU1701</NoWarn>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="@echo off&#xD;&#xA;echo Compress to ZIP and store in tests project ...&#xD;&#xA;powershell.exe &quot;Compress-Archive -Path '$(TargetPath)' -DestinationPath '$(SolutionDir)inRiverCommunity.Connectivity.iPMC.Tests\Packages\$(ProjectName).zip' -Force&quot;&#xD;&#xA;echo Written to: $(SolutionDir)inRiverCommunity.Connectivity.iPMC.Tests\Packages\$(ProjectName).zip" />
+  </Target>
+
+</Project>
