@@ -1,6 +1,9 @@
-MIT License
+REST-API-DotNet-Wrapper
 
-Copyright (c) 2020 inRiverCommunity
+Copyright (c) inRiverCommunity. All rights reserved.
+https://www.inriver.com
+
+MIT license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

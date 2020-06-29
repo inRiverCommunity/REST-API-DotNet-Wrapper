@@ -7,12 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inRiverCommunity.Connectivi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3D2A8923-0569-4416-9E86-B8341E940D72}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{5A4550F4-6410-47D7-8FCB-732F7C16F7F7}"
-	ProjectSection(SolutionItems) = preProject
-		LICENSE = LICENSE
-		README.md = README.md
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "inRiverCommunity.Connectivity.iPMC.Tests", "inRiverCommunity.Connectivity.iPMC.Tests\inRiverCommunity.Connectivity.iPMC.Tests.csproj", "{F93351CE-07E8-410E-A456-3838001CC25C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Git", "Git", "{31FCAF37-8663-4662-B614-451B709A9F66}"

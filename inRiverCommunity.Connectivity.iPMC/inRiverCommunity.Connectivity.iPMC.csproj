@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Company>inRiver Community</Company>
+    <Company>inRiverCommunity</Company>
     <Authors>Tjarco Boon (Ctac, ICP)</Authors>
     <Description>.NET C# based API wrapper client for the inRiver REST API.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -10,10 +10,29 @@
     <Copyright>inRiver Community</Copyright>
     <RepositoryUrl>https://github.com/inRiverCommunity/REST-API-DotNet-Wrapper</RepositoryUrl>
     <UserSecretsId>e320f638-9203-4416-b6ba-12ae0c9b4487</UserSecretsId>
+    <PackageIcon>inRiverCommunity.jpg</PackageIcon>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>inRiver, Product, Marketing, Cloud, inRiverCommunity, REST API</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Build\inRiverCommunity.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="Docs\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Build\" />
+    <Folder Include="Docs\" />
   </ItemGroup>
 
 </Project>
