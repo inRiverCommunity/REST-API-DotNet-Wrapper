@@ -8,7 +8,7 @@ Use NuGet to add this project to you dependencies list.
 ## Table of Contents
 
 - [How it works](inRiverCommunity.Connectivity.iPMC/Docs/README.md)
-- [Contributing](inRiverCommunity.Connectivity.iPMC/docs/CONTRIBUTING.md)
+- [Contributing](inRiverCommunity.Connectivity.iPMC/Docs/CONTRIBUTING.md)
 - [Authors](#Authors)
 - [License](#license)
 
@@ -19,4 +19,4 @@ Use NuGet to add this project to you dependencies list.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](inRiverCommunity.Connectivity.iPMC/docs/LICENSE.txt) file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](inRiverCommunity.Connectivity.iPMC/Docs/LICENSE.txt) file for details.
